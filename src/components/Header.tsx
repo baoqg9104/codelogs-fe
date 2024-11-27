@@ -35,7 +35,7 @@ export default function Example() {
             to="/CodeLogsZ/codeforces"
             className={({ isActive }) =>
               `font-medium flex items-center gap-x-[6px] ${
-                isActive || pathname === "/" ? "text-white" : "text-[#A9A9A9]"
+                isActive || pathname === "/CodeLogsZ/" ? "text-white" : "text-[#A9A9A9]"
               }`
             }
           >
