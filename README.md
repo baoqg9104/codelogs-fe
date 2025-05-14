@@ -1,50 +1,18 @@
-# React + TypeScript + Vite
+<h1 align="center">Welcome to codelogsz 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version- 0.0.1-blue.svg?cacheSeconds=2592000" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> CodeLogsZ is a web application built with React, TypeScript, and Vite that allows users to track their progress and statistics on popular competitive programming platforms like Codeforces, LeetCode, and HackerRank. The application provides features such as user-specific problem-solving statistics, recent submissions, and rankings, along with a clean and responsive user interface. It is designed to help developers monitor their competitive programming journey efficiently.
 
-Currently, two official plugins are available:
+### ✨ [Demo](https://baoqg9104.github.io/CodeLogsZ/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Author
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+✍🏻 **Quach Gia Bao**
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Show your support
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Give a ⭐️ if this project helped you!
