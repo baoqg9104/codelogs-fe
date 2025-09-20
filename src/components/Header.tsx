@@ -32,10 +32,10 @@ export default function Example() {
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <NavLink
-            to="/CodeLogsZ/codeforces"
+            to="/codelogs-fe/codeforces"
             className={({ isActive }) =>
               `font-medium flex items-center gap-x-[6px] ${
-                isActive || pathname === "/CodeLogsZ/" ? "text-white" : "text-[#A9A9A9]"
+                isActive || pathname === "/codelogs-fe/" ? "text-white" : "text-[#A9A9A9]"
               }`
             }
           >
@@ -48,7 +48,7 @@ export default function Example() {
           </NavLink>
 
           <NavLink
-            to="/CodeLogsZ/leetcode"
+            to="/codelogs-fe/leetcode"
             className={({ isActive }) =>
               `font-medium flex items-center gap-x-1 ${
                 isActive ? "text-white" : "text-[#A9A9A9]"
@@ -83,7 +83,7 @@ export default function Example() {
             LeetCode
           </NavLink>
           <NavLink
-            to="/CodeLogsZ/hackerrank"
+            to="/codelogs-fe/hackerrank"
             className={({ isActive }) =>
               `font-medium flex items-center gap-x-1 ${
                 isActive ? "text-white" : "text-[#A9A9A9]"

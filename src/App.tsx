@@ -12,10 +12,10 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/CodeLogsZ/" element={<Codeforces />} />
-          <Route path="/CodeLogsZ/codeforces" element={<Codeforces />} />
-          <Route path="/CodeLogsZ/leetcode" element={<Leetcode />} />
-          <Route path="/CodeLogsZ/hackerrank" element={<HackerRank />} />
+          <Route path="/codelogs-fe/" element={<Codeforces />} />
+          <Route path="/codelogs-fe/codeforces" element={<Codeforces />} />
+          <Route path="/codelogs-fe/leetcode" element={<Leetcode />} />
+          <Route path="/codelogs-fe/hackerrank" element={<HackerRank />} />
         </Routes>
       </BrowserRouter>
       <ToastContainer autoClose={2000} />
